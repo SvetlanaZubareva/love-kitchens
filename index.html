@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Любимая кухня</title>
+    <link rel="stylesheet" href="./font/font.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header class="header">
@@ -293,37 +295,41 @@
             </h2>
             <div class="swiper">
                 <div class="swiper-wrapper">
-                  <div class="swiper-slide">
+                  <div class="swiper-slide swiper-slide--img" id="swiper-slide--img">
                     <h3 class="swiper-slide_h3">
                         Проектирование
                     </h3>
                     <p class="swiper-slide_paragraph">
                         Опытные специалисты вместе с Вами создадут дизайн-проект будущей мебели и предложат множество цветовых решений
                     </p>
+                    <img class="swiper-slide_img" src="" alt="">
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide swiper-slide--img" id="swiper-slide--img">
                     <h3 class="swiper-slide_h3">
                         Производство
                     </h3>
                     <p class="swiper-slide_paragraph">
                         Автоматика и опытный персонал гарантируют точность раскроя до 0.1 мм и четкое соблюдение технологии производства
                     </p>
+                    <img class="swiper-slide_img" src="" alt="">
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide swiper-slide--img" id="swiper-slide--img">
                     <h3 class="swiper-slide_h3">
                         Комплектация
                     </h3>
                     <p class="swiper-slide_paragraph">
                         Фурнитура, столешницы и освещение: подбираем детали согласно вашему запросу
                     </p>
+                    <img class="swiper-slide_img" src="" alt="">
                   </div>
-                  <div class="swiper-slide">
+                  <div class="swiper-slide swiper-slide--img" id="swiper-slide--img">
                     <h3 class="swiper-slide_h3">
                         Доставка
                     </h3>
                     <p class="swiper-slide_paragraph">
                         Делаем замеры и создаем индивидуальный дизайн-проект с учетом особенностей вашей мебели
                     </p>
+                    <img class="swiper-slide_img" src="" alt="">
                   </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -337,7 +343,7 @@
                 Внимательны к каждому слову
             </h2>
             <h3 class="section-description_h3">
-
+                Нам важна любая мелочь. 
             </h3>
             <p class="section-description_paragraph">
                 Какие блюда вы готовите дома? Сколько времени проводите на кухне? Пьете чай или кофе?
@@ -401,13 +407,13 @@
                     <h2 class="section-factory_h2">
                         о фабрике
                     </h2>
-                    <p class="section-factory_h2 section-factory_h2--margin">
+                    <p class="section-factory_p section-factory_h2--margin">
                         Мы производим и проектируем кухни и корпусную мебель на заказ в современном и классическом стиле с 2011 года. Все изделия создаются только из 
                         качественных материалов премиум качества. Штат наших дизайнеров с радостью поможет вам на всех этапах проектирования, начиная от цвета фасадов, 
                         заканчивая высотой расположения полочек. Вся мебель изготавливается за рекордные 15 дней 
                         со дня утверждения проекта. 
                     </p>
-                    <p class="section-factory_h2">
+                    <p class="section-factory_p">
                         Идеальное соотношение цена - качество
                     </p>
                     <a class="section-factory_link" href="#">
@@ -432,14 +438,16 @@
                 <h2 class="section-new_h2">
                     новинки 
                 </h2>
-                <div class="section-new_div">
-                    <button class="section-new_button">
-                        Кухни
-                    </button>
-                    <button class="section-new_button">
-                        Корпусная мебель
-                    </button>
-                </div>
+                <section class="section-new--margin">
+                    <div class="section-new_div">
+                        <button class="section-new_button--color">
+                            Кухни
+                        </button>
+                        <button class="section-new_button">
+                            Корпусная мебель
+                        </button>
+                    </div>
+                </section>
                 <ul class="section-new_list">
                     <li class="section-new_list-item">
                         <img class="section-new_img" src="" alt="">
@@ -514,7 +522,9 @@
                 </h2>
                 <ul class="section-advantages-list_list">
                     <li class="section-advantages-list-item">
-                        <img  class="section-advantages-list-item_img" src="" alt="">
+                        <div class="section-advantages-list_div--hover">
+                            <img  class="section-advantages-list-item_img" src="" alt="">
+                        </div>
                         <h3 class="section-advantages-list-item_h3">
                             Работу без посредников
                         </h3>
@@ -523,7 +533,9 @@
                         </p>
                     </li>
                     <li class="section-advantages-list-item">
-                        <img  class="section-advantages-list-item_img" src="" alt="">
+                        <div class="section-advantages-list_div--hover">
+                            <img  class="section-advantages-list-item_img" src="" alt="">
+                        </div>
                         <h3 class="section-advantages-list-item_h3">
                             Европейское качество
                         </h3>
@@ -532,7 +544,9 @@
                         </p>
                     </li>
                     <li class="section-advantages-list-item">
-                        <img  class="section-advantages-list-item_img" src="" alt="">
+                        <div class="section-advantages-list_div--hover">
+                            <img  class="section-advantages-list-item_img" src="" alt="">
+                        </div>
                         <h3 class="section-advantages-list-item_h3">
                             Справедливая цена
                         </h3>
@@ -541,7 +555,9 @@
                         </p>
                     </li>
                     <li class="section-advantages-list-item">
-                        <img  class="section-advantages-list-item_img" src="" alt="">
+                        <div class="section-advantages-list_div--hover">
+                            <img  class="section-advantages-list-item_img" src="" alt="">
+                        </div>
                         <h3 class="section-advantages-list-item_h3">
                             Беспроцентная рассрочка
                         </h3>
@@ -550,7 +566,9 @@
                         </p>
                     </li>
                     <li class="section-advantages-list-item">
-                        <img  class="section-advantages-list-item_img" src="" alt="">
+                        <div class="section-advantages-list_div--hover">
+                            <img  class="section-advantages-list-item_img" src="" alt="">
+                        </div>
                         <h3 class="section-advantages-list-item_h3">
                             Поддержка и забота
                         </h3>
@@ -559,7 +577,9 @@
                         </p>
                     </li>
                     <li class="section-advantages-list-item">
-                        <img  class="section-advantages-list-item_img" src="" alt="">
+                        <div class="section-advantages-list_div--hover">
+                            <img  class="section-advantages-list-item_img" src="" alt="">
+                        </div>
                         <h3 class="section-advantages-list-item_h3">
                             Постгарантийная помощь
                         </h3>
@@ -587,11 +607,11 @@
                 <p class="feedback-form_p">
                     Пришлите его нам на расчёт
                 </p>
-                <input class="feedback-form_name" type="text" placeholder="Ваше Имя">
-                <input class="feedback-form_telephone" type="tel" placeholder="номер телефона">
-                <input class="feedback-form_comment" type="text" placeholder="Ваши комментарии и пожелания">
+                <input class="feedback-form_name input" type="text" placeholder="Ваше Имя">
+                <input class="feedback-form_telephone input" type="tel" placeholder="номер телефона">
+                <input class="feedback-form_comment input" type="text" placeholder="Ваши комментарии и пожелания">
                 <div class="feedback-form_div">
-                    <button class="feedback-form_button">
+                    <button class="feedback-form_button button">
                         отправить
                     </button>
                     <p class="feedback-form_p">
@@ -733,96 +753,96 @@
                 <ul class="section-advantages_list">
                     <li class="section-advantages_list-item">
                         <select name="select" id="">
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 Как заказать кухню от вашей фабрики?
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 1
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 2
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 3
                             </option>
                         </select>
                     </li>
                     <li class="section-advantages_list-item">
                         <select name="select" id="">
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 Как заказать кухню от вашей фабрики?
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 1
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 2
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 3
                             </option>
                         </select>
                     </li>
                     <li class="section-advantages_list-item">
                         <select name="select" id="">
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 Как заказать кухню от вашей фабрики?
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 1
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 2
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 3
                             </option>
                         </select>
                     </li>
                     <li class="section-advantages_list-item"></li>
                         <select name="select" id="">
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 Как заказать кухню от вашей фабрики?
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 1
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 2
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 3
                             </option>
                         </select>
                     </li>
                     <li class="section-advantages_list-item">
                         <select name="select" id="">
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 Как заказать кухню от вашей фабрики?
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 1
                             </option>
-                            <option value="value1" selected>
+                            <option  class="option-text"value="value1" selected>
                                 2
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 3
                             </option>
                         </select>
                     </li>
                     <li class="section-advantages_list-item">
                         <select name="select" id="">
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 Как заказать кухню от вашей фабрики?
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 1
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 2
                             </option>
-                            <option value="value1" selected>
+                            <option class="option-text" value="value1" selected>
                                 3
                             </option>
                         </select>
@@ -830,6 +850,9 @@
                 </ul>
             </section>
             <section class="section-adress">
+                <h2 class="section-adress_h2">
+                    закажите кухню в ближайшем салоне
+                </h2>
                 <div class="section-adress_div">
                     <div class="section-adress_div--flex">
                         <h3 class="section-adress_h3">
