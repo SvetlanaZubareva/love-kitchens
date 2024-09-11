@@ -45,14 +45,14 @@
     padding: 0;
   }
   .header-section_link{
-    font-family: "Inter" sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     color: #888888;
   }
   .section-nav_link{
-    font-family: "Inter" sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -60,37 +60,33 @@
     text-transform: uppercase;
   }
   .section-main_h1{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 68px;
     color: #1E1E1E;
     text-transform: uppercase;
+    margin-bottom: 20px;
   }
   .section-main_span{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto";
     font-weight: 500;
     font-size: 48px;
     line-height: 68px;
     color: #FFF8A4;
-    width: 188px;
-    height: 59px;
     background-color: #FF3333;
     border-radius: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+    padding: 5px 20px 5px;
   }
   .section-kitchen_h2{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 47px;
     color: #1E1E1E;
   }
   .section-kitchen_link{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
@@ -104,32 +100,37 @@
     align-items: center;
   }
   .section-kitchen_h3{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
     color: #1E1E1E;
   }
   .section-kitchen_span{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
     color: #EC1111;
   }
   .section-advantages_span--color{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;
     color: #FFF8A4;
   }
   .section-advantages_h2{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;
     color: #1E1E1E;
+  }
+  .section-advantages_h2--padding{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
   }
   #swiper-slide--img{
     background-color: #474552;
@@ -141,49 +142,66 @@
     padding: 45px 0 ;
   }
   .swiper-slide_h3{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
     color: #ffff;
   }
   .swiper-slide_paragraph{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
     color: #ffff;
   }
   .section-description_h2{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;
     color: #1E1E1E;
+    width: 690px;
+    margin: auto;
+    margin-bottom: 20px;
   }
   .section-description_h3{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
     color: #1E1E1E;
+    margin-bottom: 20px;
   }
   .section-description_paragraph{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
     color: #555555;
+    width: 480px;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  .section-description{
+    text-align: center;
+  }
+  .div-test{
+    padding: 172px 48px 48px;
+    padding-left: 84px;
   }
   .div-test_h3{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 32px;
     color: #1E1E1E;
+    text-transform: uppercase;
+    text-align: end;
+    margin-bottom: 45px;
   }
   .div-test_link{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 32px;
     line-height: 32px;
@@ -198,21 +216,23 @@
     align-items: center;
   }
   .div-test_p{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
     color: #1F1F1F;
+    text-align: end;
   }
   .div-test_div-p{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
     color: #1F1F1F;
+    padding: 26px 15px 26px;
   }
   .paragraph--bold{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 48px;
     line-height: 48px;
@@ -220,36 +240,42 @@
     text-transform: uppercase;
   }
   .paragraph{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
     color: #1F1F1F;
   }
   .span--font{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     color: #1F1F1F;
   }
   .section-factory_h2{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
     color: #1F1F1F;
     text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: start;
   }
   .section-factory_p{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
     color: #555555;
+    text-align: start;
+  }
+  .section-factory_p{
+    margin-bottom: 30px;
   }
   .section-factory_link{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 32px;
     line-height: 32px;
@@ -264,11 +290,13 @@
   }
   .section-new_h2{
     text-transform: uppercase;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
     color: #1F1F1F;
+    text-align: start;
+    margin-bottom: 45px;
   }
   .section-new_div{
     display: grid;
@@ -282,7 +310,7 @@
   .section-new_button--color{
     background-color: #1E1E1E;
     color: #fff;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
@@ -296,7 +324,7 @@
   .section-new_button--color{
     background-color: #FFF;
     color: #1f1f1f;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
@@ -310,21 +338,24 @@
   }
   .section-new_h3{
     color: #1e1e1e;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
+    text-align: start;
+    margin-bottom: 10px;
   }
   .section-new_h4{
     color: #1e1e1e;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
+    margin: 0;
   }
   .section-new_span{
     color: #ec1111;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
@@ -352,55 +383,98 @@
     font-size: 64px;
     line-height: 64px;
   }
+  .section-advantages-list{
+    margin-bottom: 90px;
+  }
   .section-advantages-list_h2{
     text-transform: uppercase;
     color: #1E1E1E;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
+    margin-bottom: 50px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: start;
+    margin-bottom: 50px;
   }
   .section-advantages-list-item_h3{
     color: #1E1E1E;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
+    margin-bottom: 20px;
   }
   .section-advantages-list-item_p{
     color: #555555;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
+    width: 180px;
+    margin: auto;
   }
   .section-header_h2{
     color: #1E1E1E;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: start;
+    margin-bottom: 29px;
+  }
+  .feedback-form1{
+    background-color: #474552;
+      margin: 0 auto;
+      width: 62%;
+      border-radius: 25px;
+      margin-bottom: 78px;
+
   }
   .feedback-form{
-    background-color: #555555;
+    background-color: #474552;
+      border-radius: 25px;
+      padding: 45px 45px 20px;
+      box-sizing: border-box;
+      /* background-image: url("./img/jpg/_РЎР»РѕР№_1.jpg"),
+      url("./img/jpg/7096096b6945368a682aed1f399dc67c\ 1.jpg"); */
+      background-image: url("./img/jpg/1.png"),
+      url("./img/jpg/_РЎР»РѕР№_1.jpg");
+      background-repeat: no-repeat, no-repeat;
+      background-position:
+      bottom right,
+      right,
+      bottom;
   }
   .feedback-form_h2{
     color: #fff;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
+    text-transform: uppercase;
+    text-align: start;
+    margin-bottom: 10px;
   }
-  .feedback-form_p{
+  .feedback-form_p1{
     color: #fff;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: start;
+    display: flex;
+    align-items: center;
   }
   .input{
     color: #888888;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
@@ -415,6 +489,7 @@
     padding: 13px 0 13px;
     padding-left: 20px;
     box-sizing: border-box;
+    margin-bottom: 15px;
   }
   .feedback-form_telephone{
     width: 520px;
@@ -426,6 +501,7 @@
     padding: 13px 0 13px;
     padding-left: 20px;
     box-sizing: border-box;
+    margin-bottom: 15px;
   }
   .feedback-form_comment{
     width: 520px;
@@ -437,6 +513,7 @@
     padding: 13px 0 13px;
     padding-left: 20px;
     box-sizing: border-box;
+    margin-bottom: 30px;
   }
   .feedback-form_button{
     width: 239px;
@@ -448,67 +525,81 @@
     align-items: center;
     color: #fff;
     text-transform: uppercase;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 24px;
     margin-right: 20px;
+    border: none;
   }
   .feedback-form_div{
     display: flex;
   }
   .feedback-form_p{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 24px;
+    line-height: 24px;
     color: #fff;
+    text-align: start;
+    margin-bottom: 34px;
   }
   .feedback-form_paragraph{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     color: #888888;
+    text-align: start;
+    margin-top: 15px;
+    width: 400px;
   }
   .section-text_p{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
     color: #1E1E1E;
+    text-align: start;
   }
   .section-text_p--color{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 20px;
     color: #555555;
+    text-align: start;
+    margin-bottom: 30px;
   }
   .section-stages_h2{
     text-transform: uppercase;
     color: #1e1e1e;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
+    text-align: start;
+    margin-bottom: 30px;
   }
   .section-stages_section{
     background-color: #474552;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
   }
   .section-stages_span{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
     color: #fff;
     text-transform: uppercase;
-    margin-left: 20px;
+    margin-right: 20px;
   }
   .section-stages_h3{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
@@ -516,14 +607,17 @@
     text-transform: uppercase;
   }
   .section-stages_p--color{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
     color: #555555;
+    background-color: #fff;
+    padding: 20px 15px 50px;
+    text-align: start;
   }
   .section-reviews_h2{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
@@ -531,38 +625,41 @@
     text-transform: uppercase;
   }
   .section-questions_h2{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
     color: #1f1f1f;
     text-transform: uppercase;
+    margin-bottom: 30px;
   }
   .section-advantages_p{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
     color: #555555;
+    margin-bottom: 53px;
   }
   .option-text{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
     color: #555555;
   }
   .section-adress_h2{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
     color: #1f1f1f;
     text-transform: uppercase;
+    margin-bottom: 77px;
   }
   .section-adress_h3{
     background-color: #fff;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
@@ -577,7 +674,7 @@
   }
   .section-adress_h3--color{
     background-color: #EC1111;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
@@ -594,37 +691,563 @@
     height: 450px;
   }
   .section-adress_p{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 16px;
     color: #555555;
   }
   .div-telephone_link{
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 48px;
     line-height: 48px;
     color: #ec1111;
   }
   .footer_list-item_link{
-    font-family: "Inter" sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
     color: #fff;
   }
   .footer_list1-item-link{
-    font-family: "Inter" sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #fff;
   }
   .footer-p--color{
-    font-family: "Inter" sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #555555;
   }
+  .header-section{
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+    margin: 0 auto;
+    padding: 10px 0 10px;
+  }
+  .header-section_list{
+    display: flex;
+  }
+  /* .header-section_list--margin{
+    margin-right: 5%;
+  } */
+  .header-section_list-item{
+    margin-right: 15px;
+  }
+  .header-section_list-item--margin{
+    margin: 0;
+  }
+  .header-section--border{
+    border-bottom: 0.5px #888888 solid;
+  }
+  .section-nav{
+    width: 63%;
+    margin: 0 auto;
+    padding: 15px 0 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section-nav_list{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+  }
+  .img-logo{
+    margin-right: 69px;
+  }
+  /* .section-nav_list-item{
+    margin-right: 45px;
+  } */
+  /* .section-nav_list-item:nth-child(4){
+    margin-right: 81px;
+  } */
+  .section-nav_img{
+    margin-left: 5px;
+  }
+  .section-nav_img--margin{
+    margin-right: 10px;
+  }
+  .section-main--flex{
+    background-image: url("./img/jpg/Group\ 69.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 40px 0 40px;
+  }
+  .section-main--margin-flex{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 40% 60%;
+  }
+  .section-main_paragraph{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #555555;
+    width: 530px;
+    margin-bottom: 20px;
+  }
+  .section-main_button{
+    width: 408px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: #FF3333;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    color: #fff;
+    border: none;
+  }
+  .section-kitchen{
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px 0 114px;
+  }
+  .section-kitchen_div{
+    width: 422px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+  .section-kitchen_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 29px;
+  }
+  .section-kitchen_img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 200px;
+  }
+  .section-kitchen_list-item{
+    background-color: #fff;
+    height: 289px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  .section-kitchen--background-img{
+    background-image: url("./img/jpg/Rectangle\ 61.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img1{
+    background-image: url("./img/jpg/Rectangle 61 (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img2{
+    background-image: url("./img/jpg/Rectangle 61 (2).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img3{
+    background-image: url("./img/jpg/Rectangle 61 (3).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img4{
+    background-image: url("./img/jpg/Rectangle 61 (4).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img5{
+    background-image: url("./img/jpg/Rectangle 61 (5).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img6{
+    background-image: url("./img/jpg/Rectangle 61 (6).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img7{
+    background-image: url("./img/jpg/Rectangle 61 (7).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img8{
+    background-image: url("./img/jpg/Rectangle 61 (8).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img9{
+    background-image: url("./img/jpg/Rectangle 61 (9).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img10{
+    background-image: url("./img/jpg/Rectangle 61 (10).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen--background-img11{
+    background-image: url("./img/jpg/Rectangle 61 (11).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .section-kitchen_div--flex{
+    box-sizing: border-box;
+    padding: 33px 20px 33px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-kitchen_div--margin{
+    width: 773px;
+  }
+  .section-advantages{
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-advantages_span--color{
+    display: flex;
+    width: 812px;
+    box-sizing: border-box;
+    background-color: #FF3333;
+    padding-right: 20px;
+    justify-content: right;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    align-items: center;
+  }
+  .section-advantages_span--img{
+    margin-right: 26px;
+  }
+  .section-description_div--flex{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-bottom: 90px;
+  }
+  .section-description_div--img-size{
+    background-image: url("./img/jpg/image 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .button_link--right{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 45px;
+  }
+  .div-test_div--img{
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 100%;
+  }
+  .div-test_div--img1{
+    height: 100%;
+    border-radius: 25px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #f5f5f5;
+  }
+  .div-test_div{
+    display: flex;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+  }
+  .div-test--flex{
+    justify-content: end;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .div--flex-border{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 98px;
+  }
+  .section-factory--margin{
+    display: grid;
+    grid-template-columns: 38% 60%;
+    margin: 0 auto;
+    width: 75%;
+    margin-bottom: 90px;
+  }
+  .section-factory_div-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-factory_div-list-item:nth-child(2){
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+  }
+  .section-new{
+    margin-bottom: 98px;
+  }
+  .section-new--margin-center{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .section-new_div--width{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
+  }
+  .section-new_button--nored{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .section-new_button--red{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #1e1e1e;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    border: none;
+  }
+  .section-new_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+  }
+  .section-new_list-item{
+    background-color: #fff;
+    border-radius: 25px;
+  }
+  .section-new_div--margin{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0 19px;
+  }
+  .section-new_img{
+    margin-bottom: 15px;
+  }
+  .section-new_div--flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section-new_div--flex-margin{
+    margin-bottom: 5px;
+  }
+  .section-new_section{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section-slider_div{
+    display: flex;
+    width: 812px;
+    box-sizing: border-box;
+    background-color: #FF3333;
+    padding-right: 101px;
+    justify-content: right;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    align-items: center;
+  }
+  .section-slider{
+    margin-bottom: 135px;
+  }
+  .section-advantages-list_div--hover{
+    background-color: #fff;
+    border-radius: 25px;
+  }
+  .section-advantages-list_list{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  .section-advantages-list_div--hover{
+    margin-bottom: 17px;
+  }
+  .section-header_div-list{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 30px;
+    margin-bottom: 90px;
+  }
+  .section-header_div-list-item:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+  }
+  .section-header_div-list-item:nth-child(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+  }
+  .section-header_div-list-item:nth-child(3){
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+  }
+  .section-header_div-list-item:nth-child(4){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+  }
+  .section-header_div-list-item:nth-child(5){
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+  }
+  .section-text_list{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 60px;
+  }
+  .section-text_list-item:nth-child(4){
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .section-stages_div{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .section-stages_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  .section-stages{
+    margin-bottom: 90px;
+  }
+  .reviews{
+    margin: 0 auto;
+    margin-top: 45px;
+    width: 49%;
+    margin-bottom: 76px;
+  }
+  .section-advantages_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 133px;
+  }
+  .section-adress--margin-div{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-adress_div--flex{
+    display: flex;
+    justify-content: center;
+  }
+  .div-telephone--flex{
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-telephone_p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+    color: #1e1e1e;
+    margin-right: 60px;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+  }
+  .footer{
+    background-color: #1e1e1e;
+    padding: 32px 0 42px;
+  }
+  .footer_div--margin{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .footer_div--grid{
+    display: grid;
+    grid-template-columns: 20% 60%;
+    align-items: center;
+    gap: 20%;
+  }
+  .footer_list{
+    display: flex;
+    justify-content: space-between;
+  }
+  
