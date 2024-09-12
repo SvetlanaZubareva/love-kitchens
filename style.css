@@ -99,6 +99,9 @@
     justify-content: center;
     align-items: center;
   }
+  .section-kitchen_link:hover{
+    background-color: #333333;
+  }
   .section-kitchen_h3{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -613,8 +616,10 @@
     line-height: 20px;
     color: #555555;
     background-color: #fff;
-    padding: 20px 15px 50px;
+    padding: 20px 15px 0;
     text-align: start;
+    height: 125px;
+    box-sizing: border-box;
   }
   .section-reviews_h2{
     font-family: "Roboto", sans-serif;
@@ -809,6 +814,9 @@
     color: #fff;
     border: none;
   }
+  .section-main_button{
+    background-color: #ff3333;
+  }
   .section-kitchen{
     width: 75%;
     margin: 0 auto;
@@ -835,6 +843,11 @@
     height: 289px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+  }
+  .section-kitchen_list-item:hover{
+    width: 105%;
+    height: 105%;
+    border-radius: 25px;
   }
   .section-kitchen--background-img{
     background-image: url("./img/jpg/Rectangle\ 61.jpg");
@@ -1089,6 +1102,9 @@
   }
   .section-new_img{
     margin-bottom: 15px;
+    width: 307px;
+    border-radius: 25px;
+    position: relative;
   }
   .section-new_div--flex{
     display: flex;
@@ -1138,37 +1154,78 @@
     margin-bottom: 17px;
   }
   .section-header_div-list{
-    width: 75%;
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 23% 23% 24% 24%;
     gap: 30px;
     margin-bottom: 90px;
+  }
+  .section-header_div--grid{
+    width: 75%;
+    margin: 0 auto;
   }
   .section-header_div-list-item:nth-child(1){
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
+    background-image: url("./img/jpg/Frame\ 206.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
   }
   .section-header_div-list-item:nth-child(2){
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
+    background-image: url("./img/jpg/Frame\ 207.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
   }
   .section-header_div-list-item:nth-child(3){
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
+    background-image: url("./img/jpg/Frame\ 208.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
   }
   .section-header_div-list-item:nth-child(4){
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
+    background-image: url("./img/jpg/Frame\ 204.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
   }
   .section-header_div-list-item:nth-child(5){
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 2;
+    background-image: url("./img/jpg/Frame\ 205.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+  }
+  .section-header_div-list-item:hover{
+    filter: blur(2px);
+    opacity: 0.3;
   }
   .section-text_list{
     width: 75%;
@@ -1340,5 +1397,62 @@
   .section-advantages-list_div--hover svg:hover{
     fill: #fff;
   }
-  
+  .section-stages_list-item{
+    height: 175px;
+  }
+  /* эффект при наведении на картинку
+   */
+   .section-new_link { 
+    display: block; 
+    position: relative; 
+    width: 309px;
+    border-radius: 25px;
+  }
+
+   .section-new_link:after { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: rgba(0,0,0,.5);  
+    opacity: 0; 
+    border-radius: 25px;
+  }
+   
+   .section-new_link:before { 
+    content: ''; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background: url(icon-path); opacity: 0; 
+    border-radius: 25px;
+  }
+   
+   .section-new_link:hover:before,
+   .section-new_link:hover:after { 
+    opacity: 1; 
+    border-radius: 25px;
+  }
+  .section-new_svg--display{
+    opacity: 0;
+    position: absolute;
+    z-index: 100;
+    top: 35%;
+    left: 38%;
+  }
+  .section-new_img:hover .section-new_svg--display {
+    opacity: 1;
+  }
+  .section-header_img--grid{
+    border-radius: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+  }
   
