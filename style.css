@@ -189,6 +189,32 @@
     top: 70%;
     left: -6%;
   }
+  #swiper-navigation2{
+    width: 100px;
+    height: 47px;
+    background-color: #fff;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 10;
+    top: -11%;
+    left: 45%;
+  }
+  #swiper-button-prev2{
+    left: 22%;
+    top: 52%;
+    color: #EC1111;
+    --swiper-navigation-size: 10px;
+    z-index: 100;
+  
+  }
+  #swiper-button-next2{
+    left: 68%;
+    top: 53%;
+    color: #EC1111;
+    --swiper-navigation-size: 10px;
+    z-index: 100;
+  
+  }
   .swiper-button--arrow{
     position: absolute;
     right: 25%;
@@ -1086,7 +1112,7 @@
     width: 65%;
     justify-content: space-between;
     margin: 0 auto;
-    margin-bottom: 98px;
+    margin-bottom: 198px;
   }
   .section-factory--margin{
     display: grid;
@@ -1227,11 +1253,11 @@
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    background-image: url("./img/jpg/Frame\ 206.jpg");
+    /* background-image: url("./img/jpg/Frame\ 206.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: 325px;
-    width: 100%;
+    /* width: 100%; */
     border-radius: 25px;
     position: relative;
   }
@@ -1284,9 +1310,9 @@
     position: relative;
   }
   .div-list-bg{
-    background-image: url("./img/jpg/Frame\ 206.jpg");
+    /* background-image: url("./img/jpg/Frame\ 206.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     width: 100%;
     height: 325px;
     border-radius: 25px;
@@ -1311,27 +1337,27 @@
   .div-list-info{
     position: relative;
   }
-  .hover:hover{
-    filter: blur(5px);
-  }
-  .hover2:hover{
-    opacity: 1;
+  .section-header_div-list-item--hover{
+    background-image: url("./img/jpg/Frame\ 206.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    /* width: 100%; */
   }
   .hover:hover{
     /* filter: blur(5px); */
-    /* width: 100%;
-    height: 325px; */
-    z-index: 10;
-    /* background-color: #fff; */
-    position: absolute;
-    /* opacity: 0.5; */
+    /* background-color: #fff;
+    opacity: 0.5; */
+  }
+  .hover1:hover{
     opacity: 1;
-    /* background-image: url("./img/jpg/Frame\ 206.jpg"); */
+    back
   }
   .div-list__hover--position{
     width: 100%;
     height: 325px;
     opacity: 0;
+    z-index: 10000;
   }
   .div-list--opacity{
     background-color: #fff;
@@ -1530,9 +1556,9 @@
   .section-advantages-list_div--hover svg:hover{
     fill: #fff;
   }
-  .section-stages_list-item{
+  /* .section-stages_list-item{
     height: 175px;
-  }
+  } */
   /* эффект при наведении на картинку
    */
    .section-new_link { 
@@ -1590,6 +1616,19 @@
   .section-header_img--grid--margin{
     left: 35%;
   }
+
+  .swiper-slide img {
+    width: 100%;
+    height: 400px;
+    
+}
+.swiper-slide {
+    transition: all 0.5s ease;
+    padding: 40px 0;
+}
+.swiper-slide-active {
+    transform: scale(1.1);
+}
   /* анимация для фонового изображения */
   .section-main_div--position{
     background-image: url("./img/jpg/Frame\ 46.jpg");
@@ -1629,13 +1668,16 @@
 
   /* анимация. Появление по очереди */
   .section-stages_list-item{
+    height: 175px;
+  }
+  .section-stages_list-item{
     float: left;
     opacity: 0;
     animation: fade 1s linear forwards;
   }
   .section-stages_list-item:nth-child(1){
     animation-delay: 1s;
-  }
+  } 
   .section-stages_list-item:nth-child(2){
     animation-delay: 2s;
   }
@@ -1654,5 +1696,40 @@
   @keyframes fade {
     0% { opacity: 0; }
     100% { opacity: 1; }
+  } 
+
+  /* анимация падение сверху */
+  .div--flex-dorder{
+    transform: translateY(-100%);
+    transition: transform 1s linear;
+    transform: translateY(0);
+    animation: blok 1s linear forwards;
   }
-  
+  @keyframes blok {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(10vh);
+    }
+  }
+  .div--flex-dorder:nth-child(1){
+    animation-delay: 1s;
+    opacity: 1;
+  }
+  .div--flex-dorder:nth-child(2){
+    animation-delay: 2s;
+  }
+  .div--flex-dorder:nth-child(3){
+    animation-delay: 3s;
+  }
+  .div--flex-dorder:nth-child(4){
+    animation-delay: 4s;
+  }
+  .div--flex-dorder:nth-child(5){
+    animation-delay: 5s;
+  }
+  .swiper-button-prev2{
+    position: absolute;
+    z-index: 10;
+  }
