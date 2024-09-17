@@ -5,5 +5,5 @@ import { observer } from "./animation.js";
 window.onload = () => {
       slider();
       slider2();
-    //   observer();
+      observer();
   }

@@ -43,4 +43,10 @@ const slider = () => {
       },
     });
 
+    window.onload = () => {
+      slider();
+      slider2();
+      observer();
+  }
+
   export { slider, slider2 }

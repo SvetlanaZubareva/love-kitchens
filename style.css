@@ -191,7 +191,7 @@
     position: absolute;
     z-index: 10;
     top: 70%;
-    left: -6%;
+    left: -4%;
   }
   #swiper-navigation2{
     width: 100px;
@@ -1349,13 +1349,12 @@
     /* width: 100%; */
   }
   .hover:hover{
-    /* filter: blur(5px); */
-    /* background-color: #fff;
-    opacity: 0.5; */
+    filter: blur(5px);
+    background-color: #fff;
+    opacity: 0.5;
   }
   .hover1:hover{
     opacity: 1;
-    back
   }
   .div-list__hover--position{
     width: 100%;
@@ -1378,6 +1377,15 @@
     height: 325px;
     top: 0;
     right: 0;
+  }
+  .section-header_div-list-item:hover .section-header_div-list-item--hover {
+    background-image: url("./img/jpg/Frame\ 206.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+  }
+  .section-header_div-list-item:hover .hover1{
+    opacity: 1;
   }
   .section-header_p--grid{
     font-family: "Roboto", sans-serif;
@@ -1671,8 +1679,16 @@
   }
 
   /* анимация. Появление по очереди */
+ 
   .section-stages_list-item{
     height: 175px;
+  }
+  .section-stages_list-item1{
+    overflow: hidden;
+    float: left;
+    opacity: 0;
+    animation: fade 1s linear forwards;
+    animation-delay: 1s;
   }
   .section-stages_list-item{
     float: left;
