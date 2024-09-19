@@ -1348,6 +1348,18 @@
     height: 325px;
     /* width: 100%; */
   }
+  .section-header_div-list-item--hover1{
+    background-image: url("./img/jpg/Frame\ 207.jpg");
+  }
+  .section-header_div-list-item--hover2{
+    background-image: url("./img/jpg/Frame\ 208.jpg");
+  }
+  .section-header_div-list-item--hover3{
+    background-image: url("./img/jpg/Frame\ 204.jpg");
+  }
+  .section-header_div-list-item--hover4{
+    background-image: url("./img/jpg/Frame\ 205.jpg");
+  }
   .hover:hover{
     filter: blur(5px);
     background-color: #fff;
@@ -1396,7 +1408,13 @@
     text-transform: uppercase;
     position: absolute;
     top: 75%;
-    right: 20%;
+    left: 23%;
+  }
+  .section-header_p--grid-left{
+
+  }
+  .section-header_img--grid-left{
+    left: 31%;
   }
   .section-text_list{
     width: 75%;
@@ -1568,9 +1586,7 @@
   .section-advantages-list_div--hover svg:hover{
     fill: #fff;
   }
-  /* .section-stages_list-item{
-    height: 175px;
-  } */
+
   /* эффект при наведении на картинку
    */
    .section-new_link { 
@@ -1624,6 +1640,12 @@
     left: 20%;
     top: 10%;
     z-index: 20000;
+  }
+  .section-header_img--grid-left{
+    left: 31%;
+  }
+  .section-header_p--grid-left1{
+    left: 27%;
   }
   .section-header_img--grid--margin{
     left: 35%;
@@ -1682,15 +1704,10 @@
  
   .section-stages_list-item{
     height: 175px;
+    opacity: 0;
   }
   .section-stages_list-item1{
     overflow: hidden;
-    float: left;
-    opacity: 0;
-    animation: fade 1s linear forwards;
-    animation-delay: 1s;
-  }
-  .section-stages_list-item{
     float: left;
     opacity: 0;
     animation: fade 1s linear forwards;
@@ -1719,11 +1736,44 @@
   } 
 
   /* анимация падение сверху */
+  .div--flex-dorder1{
+    animation-delay: 1s;
+    opacity: 0;
+  }
+  .div--flex-dorder2{
+    animation-delay: 2s;
+    opacity: 0;
+  }
+  .div--flex-dorder3{
+    animation-delay: 3s;
+    opacity: 0;
+  }
+  .div--flex-dorder4{
+    animation-delay: 4s;
+    opacity: 0;
+  }
+  .div--flex-dorder5{
+    animation-delay: 5s;
+    opacity: 0;
+  }
   .div--flex-dorder{
     transform: translateY(-100%);
     transition: transform 1s linear;
     transform: translateY(0);
     animation: blok 1s linear forwards;
+    opacity: 1;
+  }
+  .div--flex-dorder2{
+    animation-delay: 2s;
+  }
+  .div--flex-dorder3{
+    animation-delay: 3s;
+  }
+  .div--flex-dorder4{
+    animation-delay: 4s;
+  }
+  .div--flex-dorder5{
+    animation-delay: 5s;
   }
   @keyframes blok {
     0% {
@@ -1733,22 +1783,7 @@
       transform: translateY(10vh);
     }
   }
-  .div--flex-dorder:nth-child(1){
-    animation-delay: 1s;
-    opacity: 1;
-  }
-  .div--flex-dorder:nth-child(2){
-    animation-delay: 2s;
-  }
-  .div--flex-dorder:nth-child(3){
-    animation-delay: 3s;
-  }
-  .div--flex-dorder:nth-child(4){
-    animation-delay: 4s;
-  }
-  .div--flex-dorder:nth-child(5){
-    animation-delay: 5s;
-  }
+  
   .swiper-button-prev2{
     position: absolute;
     z-index: 10;
