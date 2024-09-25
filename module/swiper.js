@@ -15,7 +15,12 @@ const slider = () => {
     slidesPerView: 4.5,
     observer: true,
     spaceBetween: 30,
-    
+    breakpoints: {
+      400: {
+          slidesPerView: 1.5,
+          spaceBetween: 15,
+      },
+    },
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
