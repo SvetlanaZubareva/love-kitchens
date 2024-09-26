@@ -20,6 +20,10 @@ const slider = () => {
           slidesPerView: 1.5,
           spaceBetween: 15,
       },
+      768: {
+        slidesPerView: 4.5,
+        spaceBetween: 30,
+    },
     },
     navigation: {
         nextEl: '.swiper-button-next',
@@ -46,6 +50,10 @@ const slider = () => {
             slidesPerView: 1,
             spaceBetween: 15,
         },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+      },
       },
       navigation: {
           nextEl: '.swiper-button-next2',

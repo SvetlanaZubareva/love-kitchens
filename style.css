@@ -1805,6 +1805,11 @@
   .svg-footer-logo--mobile{
     display: none;
   }
+  .div-list__hover--position{
+    position: absolute;
+    top: 0;
+    background-image: none;
+  }
   @media(max-width: 768px){
     .header-section--border{
       display: none;
@@ -1820,8 +1825,9 @@
       background-image: none;
     }
     .section-main--margin-flex{
-      width: 100%;
-      padding: 0 15px 0;
+      width: 95%;
+      padding: 0;
+      margin: 0 auto;
       display: grid;
       grid-template-columns: 1fr;
     }
@@ -1859,9 +1865,9 @@
       margin-top: 15px;
     }
     .section-kitchen {
-      width: 100%;
+      width: 95%;
       margin: 0 auto;
-      padding: 50px 15px 114px;
+      padding: 50px 0 20px;
   }
   .section-kitchen_h2{
     font-size: 36px;
@@ -1897,6 +1903,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding: 0;
   }
   .section-kitchen_div{
     position: relative;
@@ -1960,8 +1967,6 @@
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
-    margin-left: 15px;
-    margin-right: 15px;
   }
   .div-test{
     padding: 0;
@@ -1970,6 +1975,12 @@
     width: 100%;
     height: 228px;
     margin-bottom: 25px;
+    border-radius: 15px;
+  }
+  .section-description {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 64px;
   }
   .div-test_h3 {
     font-weight: 400;
@@ -1995,6 +2006,10 @@
   }
   .div-test--flex {
     grid-template-columns: 1fr;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .div--flex-border{
     width: 100%;
@@ -2022,7 +2037,9 @@
     grid-template-columns: 1fr;
     margin: 0 auto;
     width: 100%;
-    padding: 0 15px 0;
+    padding: 0;
+    width: 95%;
+    margin: 0 auto;
   }
   .section-factory_div--grid{
     grid-row-start: 1;
@@ -2074,7 +2091,9 @@
 .section-new--margin-center{
   margin: 0 auto;
   width: 100%;
-  padding: 0 15px 0;
+  padding: 0;
+  margin: 0 auto;
+  width: 95%;
 }
 .section-new--margin--flex{
   display: flex;
@@ -2091,7 +2110,7 @@
 }
 .section-new_list{
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  gap: 15px;
 }
 .section-new_div--flex{
   display: none;
@@ -2141,17 +2160,17 @@
   line-height: 24px;
   font-weight: 550;
   width: 370px;
-  padding: 0 15px 0;
+  padding: 0;
   text-transform: uppercase;
 }
 .section-advantages-list_list{
-  width: 100%;
+  width: 95%;
   grid-template-columns: 1fr 1fr;
-  padding: 0 15px 0;
   gap: 22px;
+  margin: 0 auto;
 }
 .section-advantages-list_div--hover{
-  width: 175px;
+  width: 100%;
   height: 175px;
 }
 .section-advantages-list-item_p {
@@ -2162,7 +2181,7 @@
   line-height: 24px;
   font-weight: 550;
   width: 100%;
-  padding: 0 15px 0;
+  padding: 0;
 }
 .section-header_div-list{
   gap: 15px;
@@ -2195,7 +2214,7 @@
 }
 .section-header_div--grid{
   width: 100%;
-  padding: 0 15px 0;
+  padding: 0;
 }
 .feedback-form1{
   width: 100%;
@@ -2402,7 +2421,7 @@
   width: 284px;
 }
 .section-new_list-item{
-  width: 180px;
+  width: 100%;
   height: 268px;
 }
 .section-new_h3{
@@ -2412,6 +2431,68 @@
 .section-new_span{
   font-size: 16px;
   line-height: 16px;
+}
+.section-kitchen_list-item{
+  width: 100%;
+  height: 185px;
+}
+.section-kitchen--background-img{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img1{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img2{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img3{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img4{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img5{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img6{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img7{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img8{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img9{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img10{
+  width: 100%;
+  height: 129px;
+}
+.section-kitchen--background-img11{
+  width: 100%;
+  height: 129px;
+}
+.section-advantages-list{
+  width: 95%;
+  margin: 0 auto;
+}
+.section-advantages-list_list{
+  width: 100%;
+}
+.section-advantages-list_list-item{
+  width: 100%;
 }
 }
   
