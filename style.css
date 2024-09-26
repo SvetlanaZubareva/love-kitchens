@@ -1810,6 +1810,12 @@
     top: 0;
     background-image: none;
   }
+  #reviews{
+    width:560px;
+    height:800px;
+    overflow:hidden;
+    position:relative;
+  }
   @media(max-width: 768px){
     .header-section--border{
       display: none;
@@ -2164,9 +2170,9 @@
   text-transform: uppercase;
 }
 .section-advantages-list_list{
-  width: 95%;
-  grid-template-columns: 1fr 1fr;
-  gap: 22px;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  gap: 15px;
   margin: 0 auto;
 }
 .section-advantages-list_div--hover{
@@ -2218,7 +2224,7 @@
 }
 .feedback-form1{
   width: 100%;
-  margin: 0 15px 0;
+  margin: 0;
 }
 .feedback-form_h2{
   font-size: 36px;
@@ -2270,7 +2276,7 @@
 }
 .section-text_list{
   margin: 0 auto;
-  padding: 0 15px 0;
+  padding: 0;
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
@@ -2300,7 +2306,7 @@
 .section-stages_div{
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px 0;
+  padding: 0;
 }
 .section-stages_list{
   grid-template-columns: 1fr;
@@ -2346,7 +2352,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 0 15px 0;
+  margin: 0;
 }
 .section-adress_h3{
   font-size: 16px;
@@ -2492,6 +2498,37 @@
   width: 100%;
 }
 .section-advantages-list_list-item{
+  width: 100%;
+}
+.section-header--grid{
+  margin-top: 50px;
+}
+.section-header_div-list{
+  gap: 5px;
+  grid-template-columns: 25% 25% 48%;
+}
+.section-stages_list-item{
+  height: 100%;
+}
+.section-stages_p--color{
+  padding: 20px;
+}
+#reviews{
+  width: 100%;
+  height: 370px;
+}
+.section-advantages_list{
+  margin: 50px 0 50px;
+}
+.section-adress_div--flex {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section-adress_h3{
+  width: 100%;
+}
+.section-adress_h3--color {
   width: 100%;
 }
 }
